@@ -1,0 +1,36 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-1">
+      <a class="navbar-brand nav-logo" href="#"><img src="../assets/img/watercolor-4447915_960_720%20(1).png" alt=""></a>
+    </div>
+    <div class="col-md-11">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" (click)="toggleNavbar()">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse"  [ngClass]="{ 'show': navbarOpen }">
+          <ul class="navbar-nav mt-3 ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-success navLinkCus" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-success navLinkCus" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-success navLinkCus" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-success navLinkCus" href="#">Koi Varieties</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-success navLinkCus" href="#">Photo Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-success navLinkCus" href="#">Service Area</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>
